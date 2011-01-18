@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SSBA"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="$(SSBA)\include"
+		PreprocessorDefinitions="V3DLIB_ENABLE_SUITESPARSE"
+	/>
+	<UserMacro
+		Name="SSBA"
+		Value="$(SolutionDir)\SSBA"
+	/>
+</VisualStudioPropertySheet>
